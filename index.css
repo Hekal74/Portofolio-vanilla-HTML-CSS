@@ -1,0 +1,264 @@
+body {
+    background-color: #1C1C1E; 
+    margin: 0;
+    border: 3px solid #985E6D;
+    font-family: 'Arial', sans-serif;
+    color: #E8E8E8;
+}
+
+.Navbar {
+    margin: 2em;
+    color: #E8E8E8; 
+    display: flex;
+    align-items: center;
+}
+
+.Navitems {
+    margin-left: auto;
+    display: flex;
+    margin-right: 30em;
+    list-style-type: none;
+}
+
+.icon {
+    color: #985E6D; 
+}
+
+.item {
+    margin-left: 2em;    
+    cursor: pointer;
+    text-align: center;
+    color: #985E6D; /* sunset */
+    background-color: #1C1C1E; /* stormy */
+    border: 0.3em solid #985E6D; /* sunset */
+    padding: 0.4em 0.8em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.item a {
+    color: #E8E8E8; /* evening */
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: #985E6D; /* sunset */
+}
+
+.Mesection {
+    color: #E8E8E8; /* evening */
+    margin: 2em 8em;
+    font-size: 1.2em;
+    position: relative;
+}
+
+.Mesection em {
+    color: #985E6D; /* sunset */
+    font-size: 1.7em;
+}
+
+.Mesection button {
+    color: #985E6D; /* sunset */
+    background-color: #1C1C1E; /* stormy */
+    border: 0.3em solid #985E6D; /* sunset */
+    padding: 0.4em 1.2em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+.Mesection button a{
+    color: white;
+    text-decoration: none;
+}
+
+.Mesection button:hover {
+    background-color: #985E6D; 
+    color: #1C1C1E; 
+}
+
+.personal-image {
+    height: 15em;
+    margin: 2em 8em;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.Aboutsection {
+    color: #E8E8E8; /* evening */
+    margin: 5em;
+}
+
+.Aboutsection h2 {
+    margin-bottom: 0.5em;
+    font-size: 3em;
+}
+
+.Aboutsection hr {
+    border: none;
+    border-top: 2px solid #985E6D; /* sunset */
+    width: 22%;
+    display: inline-block;
+}
+#aboutext{
+    margin-top: 0.5em
+}
+
+.Aboutsection p {
+    font-size: 1.2em;
+    width: 80%;
+    margin-top: -1em;
+}
+
+.Skills {
+    text-align: center;
+    color: #E8E8E8; /* evening */
+    margin: 5em 5em;
+}
+
+.Skills h2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+    gap: 2em;
+    justify-items: center;
+}
+
+.skills-grid button {
+    width: 100%;
+    height: 12em;
+    border: none;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #BCC0C4; /* cloud */
+    color: #1C1C1E; /* stormy */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.2em;
+}
+
+.skills-grid button:hover {
+    background-color: #985E6D; /* sunset */
+    color: #1C1C1E; /* stormy */
+}
+
+.skills-grid i {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.html {
+    color: chocolate;
+}
+
+.css {
+    color: #3666ec;
+}
+
+.python {
+    color: #30af85;
+}
+
+.java {
+    color: blueviolet;
+}
+
+.js {
+    color: yellow;
+}
+
+.database {
+    color: greenyellow;
+}
+
+.git {
+    color: chocolate;
+}
+
+.react {
+    color: #5a5ae7;
+}
+
+.Projects-section {
+    margin-top: 8em;
+    padding: 0.2em 8em;
+    color: #E8E8E8; /* evening */
+    background-color: #56565c;
+    height: 20em;
+}
+
+.Projects-section h2 {
+    font-size: 3em;
+}
+
+.circle {
+    width: 1.5em;
+    height: 1.5em;
+    background-color: #985E6D; /* sunset */
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 4.1em;
+    margin-bottom: 0.2em;
+}
+
+.Projects-section hr {
+    border: none;
+    border-left: 4px solid #E8E8E8; /* evening */
+    height: 4em;
+    margin: 0;
+    margin-left: 4.7em;
+}
+
+.ex {
+    position: relative;
+    bottom: 7.9em;
+    left: 7em;
+}
+
+
+.ex h4 {
+    margin-bottom: 0em;
+    font-size: 1.5em;
+}
+
+.ex li {
+    margin-bottom: 0.5em;
+}
+.ex li a{
+    color: #E8E8E8; /* evening */
+    text-decoration: none;
+}
+
+.contact-section {
+    color: #E8E8E8; /* evening */
+    background-color: #1d1c22;
+    padding: 0.5em 0em 5em 0em;
+    text-align: center;
+}
+
+.contact-section h3 {
+    font-size: 3em;
+}
+
+.contact-section p {
+    display: inline-block;
+    margin: 0 4em;
+    width: 16%;
+    cursor: pointer;
+}
+
+.contact-section p:hover {
+    color: #985E6D; /* sunset */
+}
+
+.contact-section p i {
+    margin-right: 0.7em;
+}
